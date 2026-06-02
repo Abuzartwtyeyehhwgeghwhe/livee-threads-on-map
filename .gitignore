@@ -1,0 +1,38 @@
+.env              ← पासवर्ड, API keys (संवेदनशील जानकारी)
+__pycache__/      ← Python की temporary files
+venv/             ← Virtual environment
+.vscode/          ← VS Code की settings
+threats.db        ← Database file# Environment variables
+.env
+.env.local
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project files
+*.log
+.pytest_cache/
